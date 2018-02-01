@@ -14,6 +14,8 @@ class ListItem extends Component {
 	render() {
 		return (
 			<div className="ListItem">
+				<input id="checkBox" type="checkbox"/>
+				&nbsp;&nbsp;
 				{this.props.item}
 				&nbsp;&nbsp;
 				<button onClick={this.removeItem}>remove</button>
